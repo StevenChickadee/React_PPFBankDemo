@@ -1,0 +1,24 @@
+.accountDetailWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    max-width: 100vh;
+}
+
+.accountDetailWrapper h1{
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+.accountDetailWrapper h2{
+    margin-bottom: 2vh;
+}
+
+.link{
+    align-self: flex-start;
+}
+
+.balance{
+    align-self: flex-end;
+}

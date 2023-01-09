@@ -1,0 +1,9 @@
+.valuePositive{
+    font-weight: bold;
+    color: var(--accentColor);
+}
+
+.valueNegative{
+    font-weight: bold;
+    color: red;
+}

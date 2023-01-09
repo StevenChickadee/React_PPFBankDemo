@@ -1,0 +1,35 @@
+.accountsListTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.accountsListTable td,
+.accountsListTable th {
+    padding: 1.5vh;
+    text-align: center;
+}
+
+.accountsListTable td{
+    border-bottom: 1px solid var(--tableBorderColor);
+    border-top: 1px solid var(--tableBorderColor);
+}
+
+.accountsListTable tr:nth-child(even) {
+    background-color: var(--backgroundColor2);
+}
+
+.accountsListTable tr:hover {
+    background-color: var(--actionColor);
+    cursor: pointer;
+}
+
+.accountsListTable tr:active {
+    opacity: 0.6;
+  }
+
+.accountsListTable th {
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    background-color: var(--accentColor);
+    color: var(--mainColor);
+}

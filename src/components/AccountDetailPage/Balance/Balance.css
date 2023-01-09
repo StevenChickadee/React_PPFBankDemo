@@ -1,0 +1,15 @@
+.balanceWrapper{
+    align-self: flex-start;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    margin-left: 0.5vh;
+}
+
+.balanceWrapper p{
+    margin-bottom: 1vh;
+}
+
+.balanceValue{
+    font-weight: bold;
+    color: var(--accentColor)
+}

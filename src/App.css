@@ -1,0 +1,27 @@
+:root {
+  --mainColor: #FFF;
+  --accentColor: #002C5A;
+  --backgroundColor2: #F2F2F2;
+  --tableBorderColor: #DDD;
+  --actionColor: #DDD;
+}
+
+/*Removes default browser styling*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bodyWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appWrapper h2,
+.appWrapper h3,
+.appWrapper h4 {
+  font-weight: normal;
+}

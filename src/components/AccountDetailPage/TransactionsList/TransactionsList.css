@@ -1,0 +1,26 @@
+.transactionsListTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.transactionsListTable td,
+.transactionsListTable th {
+    padding: 1.5vh;
+    text-align: center;
+}
+
+.transactionsListTable td {
+    border-bottom: 1px solid var(--tableBorderColor);
+    border-top: 1px solid var(--tableBorderColor);
+}
+
+.transactionsListTable tr:nth-child(even) {
+    background-color: var(--backgroundColor2);
+}
+
+.transactionsListTable th {
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    background-color: var(--accentColor);
+    color: var(--mainColor);
+}
